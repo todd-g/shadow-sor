@@ -1,0 +1,56 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,500,600,700,800|Inconsolata:400,700);
+
+body, div, p, h1, h2, h3, h4, h5, h6 {
+	
+font-family: 'Open Sans';
+font-weight: 300;
+
+}
+
+h1,h2,h3,h4 { font-weight: 600;}
+
+table, table tr td, table tbody tr td, td, tr, table thead, thead, table thead th, table th, table thead td {
+	font-family: 'Inconsolata';
+	font-weight: 400;
+	font-size:11px;
+}
+
+td, tr td, table tr td, table tbody tr td {	padding:2px;
+	padding-left:4px; padding-right: 4px;}
+
+tr:hover > td {
+
+	font-weight: 700;
+	background: #c0e8b2;
+}
+
+
+ /* Double Click to Copy and paste Style in <head></head> of index.php */ 
+            #pagination {
+                display: block;
+                text-align: center;
+            }
+            #pagiCount{
+                display: inline-block;
+                margin: auto;
+            }
+            #pagiCount a, #pagiCount strong {
+                display: block;
+                width: 50px;
+                background: rgb(0, 53, 148);
+                float: left;
+                margin-right: 5px;
+                color: #fff;
+                text-align: center;
+                text-decoration: none;
+                font-size:20px;
+                line-height: 29px;
+            }
+            #pagination strong , #pagination a:hover {
+                background:rgb(130, 171, 245);
+                color:#000;
+                font-size:22px;
+            }
+            tr:nth-child(even) {
+                background: #CCC
+            }
